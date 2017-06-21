@@ -1,0 +1,346 @@
+@media only screen and (max-width: 1400px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  .sticky{
+    position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        box-shadow:0 2px 2px rgb(190, 224, 222);
+        z-index: 9999;
+  }
+  .sticky .main-nav{
+    float: right;
+    list-style-type: none;
+  }
+
+  .sticky .main-nav li{
+    display: inline-block;
+    float:left;
+    margin-bottom: 10px;
+      margin-top: 15px;
+  }
+
+  .logo1{
+    height: 50px;
+    width:auto;
+    float: left;
+    margin:5px 0;
+  }
+  .sticky .logo1{display: block;}
+  .logo{display: block;}
+
+  .sticky .main-nav li a:link,.sticky .row .main-nav li a:visited{
+    color:black;
+    padding:10px;
+  }
+  .sticky .main-nav li a:hover,.sticky .row .main-nav li a:active{
+    border-bottom:1px solid #d35400;
+  }
+  .ion-navicon-round,.ion-close-round{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  .long-copy {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .imgplay {
+    width: 50%;
+    height: auto;
+  }
+  .btn-app img {
+    width: 150px;
+    height: auto;
+  }
+  .work-step {
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .small-icon {
+    font-size: 100%;
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+  }
+  .icon-big {
+    font-size: 200%;
+    margin-bottom: 5px;
+  }
+  .city-feature {
+    font-size: 90%
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  body {
+    font-size: 16px;
+  }
+  .row {
+    padding: 0 4%;
+  }
+  section {
+    padding: 20px 0;
+  }
+  .long-copy {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 140%;
+  }
+  .col {
+    width: 100%;
+  }
+  .city_img_styling {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    margin-left: 10%;
+    -webkit-box-shadow: 10px 5px 5px lightgrey;
+            box-shadow: 10px 5px 5px lightgrey;
+  }
+  .city-feature {
+    font-size: 100%;
+    text-align: center;
+  }
+  .small-icon {
+    font-size: 150%;
+  }
+  .plan-box {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  .extra {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .col.span-1-of-2.extra.extra1 {
+    padding-right: 40%;
+  }
+  .to_align {
+    text-align: center;
+  }
+  .icon-big {
+    font-size: 300%;
+    margin-bottom: 5px;
+  }
+  .steps-box-1 {
+    text-align: center;
+    padding-right: 50px;
+  }
+  .work-step {
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .work-step div {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #ff6a07;
+    border-radius: 50%;
+    color: #ff6a07;
+    margin-right: 10px;
+  }
+  .btn-app img {
+    width: 150px;
+    height: 52.75px;
+  }
+
+
+
+/*--------------------------------mob_nav------------*/
+
+  .ion-navicon-round{
+    font-size: 200%;
+    color:rgb(228, 241, 240);
+    float: right;
+    margin-top: 25px;
+    display: block;
+    cursor:pointer;
+  }
+
+  .ion-close-round{
+    font-size: 200%;
+    color:rgb(228, 241, 240);
+    float: right;
+    margin-top: 25px;
+    display:none;
+  }
+  .main-nav{
+  display: none;
+  margin-right: 30px;
+  }
+  .sticky.main-nav{
+  display: block;
+  margin-right: 30px;
+  }
+  .mob.main-nav{
+    display:block;
+    margin-right: 30px;
+  }
+  .sticky.mob.main-nav{
+    display:block;
+    margin-right: 30px;
+  }
+  .main-nav li {
+    float: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    width: 100%;
+    display: block;
+    margin-right: 0px;
+  }
+  .sticky .main-nav li {
+  float: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-top: 0;
+  padding-right: 0;
+  width: 100%;
+  display: block;
+  margin-right: 0px;
+
+  }
+
+
+}
+
+@media only screen and (max-width:480px) {
+  body {
+    font-size: 16px;
+  }
+  .row {
+    padding: 0 6%;
+  }
+  section {
+    padding: 10px 0;
+  }
+  .box p {
+    font-size: 100%;
+    line-height: 150%;
+  }
+  .long-copy {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 110%;
+    margin-bottom: 4%;
+  }
+  .btn-app img {
+    width: 130px;
+    height: 50.75px;
+  }
+  .btn:link, .btn:visited {
+    padding: 10px 20px;
+  }
+  .plan-box a {
+    margin-left: 30px;
+  }
+  .plan-box {
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 5%;
+  }
+  footer extra ul li {
+    font-size: 100%
+  }
+  .contact-form {
+    width: 100%;
+    margin: auto;
+  }
+  .main-nav{
+  display: none;
+  margin-right: 30px;
+  }
+  .sticky.main-nav{
+  display: block;
+  margin-right: 30px;
+  }
+
+.mob.main-nav{
+  display:block;
+  margin-right: 30px;
+}
+.sticky.mob.main-nav{
+  display:block;
+  margin-right: 30px;
+}
+.ion-navicon-round{
+  font-size: 200%;
+  color:rgb(228, 241, 240);
+  float: right;
+  margin-top: 25px;
+  display: block;
+  cursor:pointer;
+
+}
+
+.ion-close-round{
+  font-size: 200%;
+  color:rgb(228, 241, 240);
+  float: right;
+  margin-top: 25px;
+  display:none;
+  cursor:pointer;
+}
+.main-nav li {
+  float: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-top: 0;
+  padding-right: 0;
+  width: 100%;
+  display: block;
+  /* margin-top: 0; */
+  margin-right: 0px;
+}
+.sticky .main-nav li {
+  float: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-top: 0;
+  padding-right: 0;
+  width: 100%;
+  display: block;
+  /* margin-top: 0; */
+  margin-right: 0px;
+  }
+}
